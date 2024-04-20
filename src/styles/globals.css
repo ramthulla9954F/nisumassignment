@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bodybg: #f8f8f6;
+}
+
+body {
+    background-color: var(--bodybg);
+}
+
+.bgcustome {
+    background-image: url('https://vigocare.axlrdata.com/images/png/homebanners.png');
+    min-height: 600px;
+}
+
+@media (max-width: 768px) {
+    .bgcustome {
+        background-image: url('https://vigocare.axlrdata.com/images/png/homemobile.png');
+    }
+}
